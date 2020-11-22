@@ -1,0 +1,19 @@
+config:
+  config_variables:
+  - logistic_penalty
+  - logistic_rand_state
+  - target
+  - pca_components
+  description: This experiment uses 2-gram tokenization and logistic regression for
+    classification. With extraction of NP
+  features: 1-gram tokenization of text
+  logistic_penalty: l2
+  logistic_rand_state: 2020
+  pca_components: None
+  target: High_Retweet_Count
+values:
+  accuracy: 0.6376666666666667
+  mutual_info_score: 0.06798674078872291
+  pca_components: 523
+  precision: 0.4734426229508197
+  recall: 0.7176938369781312

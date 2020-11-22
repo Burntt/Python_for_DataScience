@@ -1,0 +1,28 @@
+config:
+  config_variables:
+  - logistic_penalty
+  - logistic_rand_state
+  - target
+  - pca_components
+  - poly_degree
+  description: This experiment takes numerical features, generates new features using
+    PolynomialFeatures, reduces features with PCA and classifies the data using Logistic
+    Regression.
+  features:
+  - favoriteCount
+  - number_of_words
+  - number_of_chars
+  - number_of_hashtags
+  - Bin_High_Retweet_Count
+  logistic_penalty: l2
+  logistic_rand_state: 2020
+  pca_components: None
+  poly_degree: 3
+  target:
+  - Bin_High_Retweet_Count
+values:
+  accuracy: 0.6696666666666666
+  mutual_info_score: 0.09402586066911897
+  pca_components: 34
+  precision: 0.5534426229508197
+  recall: 0.7313691507798961

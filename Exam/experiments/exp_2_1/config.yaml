@@ -1,0 +1,20 @@
+
+description: This experiment takes numerical features, generates new features using PolynomialFeatures, reduces features with PCA and classifies the data using Logistic Regression.
+    
+features: Characteristic Path Length, Avg.num.Neighbours,NeighborhoodConnectivity, Outdegree, Stress,\
+           PartnerOfMultiEdgedNodePairs, EdgeCount, BetweennessCentrality,\
+           Indegree, Eccentricity, ClosenessCentrality,
+           AverageShortestPathLength, ClusteringCoefficient
+target: Many_Neighbours
+    
+config_variables:
+    - logistic_penalty
+    - logistic_rand_state
+    - target
+    - pca_components
+    - poly_degree
+    
+logistic_penalty: l2
+logistic_rand_state: 2020
+pca_components: None
+poly_degree: 3

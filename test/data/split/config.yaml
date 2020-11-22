@@ -1,0 +1,5 @@
+
+Description: Split for ./data/new_tweets/new_tweets.csv
+    
+test_size: 0.2
+random_state: 2020

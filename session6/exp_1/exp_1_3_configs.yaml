@@ -1,0 +1,22 @@
+
+description: >
+    Features and regularization paramteres are moved to yaml file. 
+    
+    Everything else is similar to exp_1_1 and exp_1_2
+    
+regularization: l2
+
+features:
+
+  - HP
+  - Attack
+  - Defense
+  - Sp_Atk
+  - Sp_Def
+  - Speed
+    
+polynomial_degree: 4
+    
+test_size : 3
+
+random_state: 2022

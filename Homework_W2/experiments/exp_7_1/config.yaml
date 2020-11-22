@@ -1,0 +1,16 @@
+
+description: This experiment uses 1-gram tokenization and logistic regression for classification. 
+    Choosing [None] for pca_components will automate the process by selecting the components with sum variance greater than .9
+    
+features: 1-gram tokenization of text
+target: High_Retweet_Count
+    
+config_variables:
+    - logistic_penalty
+    - logistic_rand_state
+    - target
+    - pca_components
+    
+logistic_penalty: l2
+logistic_rand_state: 2020
+pca_components: None

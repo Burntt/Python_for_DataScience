@@ -1,0 +1,20 @@
+
+description: Create a custom classifier with pipeline of polynomial feature generation for numeric features, PCA dimensionality reduction and linear regression with parameters of regularization l1
+    
+features: Characteristic Path Length, Avg.num.Neighbours,NeighborhoodConnectivity, Outdegree, Stress,\
+           PartnerOfMultiEdgedNodePairs, EdgeCount, BetweennessCentrality,\
+           Indegree, Eccentricity, ClosenessCentrality,
+           AverageShortestPathLength, ClusteringCoefficient
+target: Many_Neighbours
+    
+config_variables:
+    - logistic_penalty
+    - logistic_rand_state
+    - target
+    - pca_components
+    - poly_degree
+    
+logistic_penalty: l2
+logistic_rand_state: 2020
+pca_components: None
+poly_degree: 3

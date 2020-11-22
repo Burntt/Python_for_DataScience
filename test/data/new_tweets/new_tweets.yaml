@@ -1,0 +1,7 @@
+
+# new_tweets.csv
+
+description: This dataset is the same as ./data/tweets.csv with the addition of High_Retweet_Count column.
+    Also median[retweetCount] value is stored in retweetCount_median variable.
+    
+retweetCount_median: 1755

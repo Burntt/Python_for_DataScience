@@ -1,0 +1,16 @@
+
+description: This experiment uses pos tokenization with extraction of NNP (2-gram) and logistic regression for classification.
+    Choosing [None] for pca_components will automate the process by selecting the components with sum variance > .9
+    
+features: pos tokenization with extraction of NN
+target: High_Retweet_Count
+    
+config_variables:
+    - logistic_penalty
+    - logistic_rand_state
+    - pca_components
+    - target
+    
+logistic_penalty: l1
+logistic_rand_state: 2020
+pca_components: None

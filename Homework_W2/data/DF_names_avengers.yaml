@@ -1,0 +1,3 @@
+
+The dataframe is saved in a pandas core dataframe. The names of all the avengers are extracted if they exist in the dictionary which is build from the internet.
+It is a pickle file so it can be opened with pickle

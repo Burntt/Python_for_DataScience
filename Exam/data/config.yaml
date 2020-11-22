@@ -1,0 +1,5 @@
+
+Description: Split for ./data/new_tweets/kegg_df.csv
+    
+test_size: 0.2
+random_state: 2020
